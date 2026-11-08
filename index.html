@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-fixed-dim": "#ffb77d", "secondary-container": "#dae2fd", "error-container": "#ffdad6", "surface-bright": "#f8f9ff", "on-background": "#0b1c30", "surface-variant": "#d3e4fe", "error": "#ba1a1a", "on-tertiary-container": "#ffcfab", "inverse-surface": "#213145", "tertiary-fixed": "#ffdcc3", "surface": "#f8f9ff", "on-error": "#ffffff", "primary-container": "#b91c1c", "background": "#f8f9ff", "on-secondary-container": "#5c647a", "surface-dim": "#cbdbf5", "surface-container-low": "#eff4ff", "on-secondary-fixed": "#131b2e", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "primary": "#93000b", "outline": "#8f6f6c", "surface-container-high": "#dce9ff", "primary-fixed": "#ffdad6", "surface-tint": "#b91c1c", "surface-container-highest": "#d3e4fe", "surface-container": "#e5eeff", "tertiary": "#6e3900", "outline-variant": "#e4beb9", "on-surface-variant": "#5b403d", "on-secondary-fixed-variant": "#3f465c", "on-surface": "#0b1c30", "on-primary-fixed-variant": "#93000b", "secondary-fixed": "#dae2fd", "on-error-container": "#93000a", "primary-fixed-dim": "#ffb4ab", "inverse-on-surface": "#eaf1ff", "secondary-fixed-dim": "#bec6e0", "tertiary-container": "#904d00", "on-tertiary": "#ffffff", "on-tertiary-fixed-variant": "#6e3900", "on-primary-fixed": "#410002", "on-secondary": "#ffffff", "on-primary-container": "#ffcdc7", "on-tertiary-fixed": "#2f1500", "inverse-primary": "#ffb4ab", "secondary": "#565e74" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-xl": "2.5rem", "gutter-mobile": "1rem", "space-lg": "1.5rem", "space-2xl": "4rem", "space-sm": "0.5rem", "space-xs": "0.25rem", "gutter": "1.5rem", "margin-mobile": "1.25rem", "margin-tablet": "2rem", "space-md": "1rem", "margin": "3rem" }, "fontFamily": { "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Outfit"], "headline-sm": ["Outfit"], "headline-xl-mobile": ["Outfit"], "headline-xl": ["Outfit"], "headline-lg-mobile": ["Outfit"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Outfit"], "title-md": ["Plus Jakarta Sans"], "label-xs": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }], "body-sm": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.025em", "fontWeight": "600" }], "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }], "headline-xl-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "headline-xl": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "label-xs": ["11px", { "lineHeight": "14px", "letterSpacing": "0.05em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/95 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.06)] border-b border-surface-container/60">
+  <!-- Top Utility Ribbon -->
+  <div class="w-full bg-inverse-surface text-inverse-on-surface py-2">
+    <div class="max-w-[1360px] mx-auto px-4 md:px-8 lg:px-12 flex flex-wrap items-center justify-between text-xs font-label-md">
+      <div class="flex flex-wrap items-center gap-x-4 gap-y-1">
+        <div class="flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[15px] text-tertiary-fixed">call</span>
+          <span>+92 64 2601234 / +92 300 1234567</span>
+        </div>
+        <div class="hidden sm:flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[15px] text-tertiary-fixed">mail</span>
+          <span>taunsa@aspirecolleges.edu.pk</span>
+        </div>
+        <div class="hidden md:flex items-center gap-1.5">
+          <span class="material-symbols-outlined text-[15px] text-tertiary-fixed">location_on</span>
+          <span>College Chowk, Taunsa Sharif, Punjab</span>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <span class="text-tertiary-fixed font-semibold hidden sm:inline">BISE DGK Center: #4210</span>
+        <button onclick="openLoginModal()" class="flex items-center gap-1 text-surface-bright hover:text-tertiary-fixed transition-colors font-medium cursor-pointer bg-transparent border-0">
+          <span class="material-symbols-outlined text-[15px]">lock</span>
+          <span>Portal Login</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Navigation Bar -->
+  <div class="h-20 max-w-[1360px] mx-auto px-4 md:px-8 lg:px-12 flex items-center justify-between gap-4">
+    <!-- Brand Crest & Name -->
+    <a href="#home" class="flex items-center gap-3 text-inherit no-underline group">
+      <img alt="Aspire College Crest Logo" class="h-11 w-auto object-contain transition-transform group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARW3Gpbno1FvW5TdSd_kRlVX0iizfZLzzfEWaZkmGpP-g0x1TdmpKIVJYmlS5zU7yJJoRhCHuOIgjWcflzD-d9JKiskhJoVBgdcSjQpq0fTO8haUZSVeoCThYwSpX-E7zJh_b_dDzabafZZL_ICRdKCRqduOiz9JcQKruELnXcuxDugp2mBsvCQMldXO-PBMNTyhfS8xNJKKSGU1Ww9rvvo_lseBa2Rp84QkDq9Tkz"/>
+      <div class="flex flex-col">
+        <div class="flex items-center gap-2">
+          <span class="font-headline-sm text-lg md:text-xl font-bold text-on-surface tracking-tight leading-none">Aspire College</span>
+          <span class="font-label-xs text-[10px] bg-tertiary-fixed text-on-tertiary-fixed px-1.5 py-0.5 rounded-full uppercase font-bold tracking-wider">Taunsa</span>
+        </div>
+        <span class="text-xs text-on-surface-variant font-medium mt-0.5">BISE D.G. Khan Affiliated</span>
+      </div>
+    </a>
+
+    <!-- DESKTOP / LAPTOP NAVIGATION TABS (Visible from 1024px and up) -->
+    <nav id="desktopNav" class="hidden lg:flex items-center gap-1 xl:gap-2">
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-primary bg-primary/10" data-section="home" href="#home">Home</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="about-us" href="#about-us">About Us</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="academic-programs" href="#academic-programs">Programs</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="facilities" href="#facilities">Facilities</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="why-aspire" href="#why-aspire">Why Aspire</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="admissions" href="#admissions">Admissions</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="campus-gallery" href="#campus-gallery">Gallery</a>
+      <a class="nav-tab px-3 py-1.5 rounded-lg text-sm font-semibold transition-all duration-200 text-on-surface-variant hover:text-primary hover:bg-surface-container" data-section="contact-us" href="#contact-us">Contact</a>
+    </nav>
+
+    <!-- ACTION BUTTONS -->
+    <div class="flex items-center gap-2 sm:gap-3">
+      <a href="#admissions" class="hidden sm:inline-flex items-center justify-center text-xs md:text-sm font-semibold bg-primary text-on-primary px-3.5 py-2 md:py-2.5 rounded-lg shadow-sm hover:bg-primary-container transition-all">
+        <span class="material-symbols-outlined text-[17px] mr-1.5">school</span>
+        Apply Now
+      </a>
+
+      <button onclick="openLoginModal()" class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 hover:bg-primary-container transition-colors shadow-sm cursor-pointer" title="Portal Login">
+        <span class="material-symbols-outlined text-[19px]">person</span>
+      </button>
+
+      <!-- MOBILE HAMBURGER BUTTON (Visible under 1024px) -->
+      <button id="mobileMenuBtn" onclick="toggleMobileMenu()" class="lg:hidden w-9 h-9 rounded-lg bg-surface-container text-on-surface flex items-center justify-center hover:bg-surface-container-high transition-colors cursor-pointer border-0" aria-label="Toggle Tabs Menu">
+        <span id="mobileMenuIcon" class="material-symbols-outlined text-[22px]">menu</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- MOBILE DROPDOWN TAB DRAWER -->
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-surface-container bg-surface/98 backdrop-blur-2xl px-4 py-3 shadow-xl transition-all">
+    <div class="grid grid-cols-2 gap-1.5 pb-2">
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-primary bg-primary/10 flex items-center gap-2" data-section="home" href="#home" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">home</span> Home
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="about-us" href="#about-us" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">info</span> About Us
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="academic-programs" href="#academic-programs" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">menu_book</span> Programs
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="facilities" href="#facilities" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">apartment</span> Facilities
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="why-aspire" href="#why-aspire" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">stars</span> Why Aspire
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="admissions" href="#admissions" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">how_to_reg</span> Admissions
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="campus-gallery" href="#campus-gallery" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">photo_library</span> Gallery
+      </a>
+      <a class="mobile-nav-tab px-3 py-2 rounded-lg text-sm font-semibold text-on-surface-variant hover:text-primary hover:bg-surface-container flex items-center gap-2" data-section="contact-us" href="#contact-us" onclick="closeMobileMenu()">
+        <span class="material-symbols-outlined text-[18px]">call</span> Contact Us
+      </a>
+    </div>
+    <div class="pt-2 border-t border-surface-container flex flex-col gap-2">
+      <a href="#admissions" onclick="closeMobileMenu()" class="w-full text-center text-sm font-semibold bg-primary text-on-primary py-2.5 rounded-lg shadow-sm">
+        Apply for Admission 2024-25
+      </a>
+      <button onclick="closeMobileMenu(); openLoginModal()" class="w-full text-center text-xs font-semibold bg-surface-container text-on-surface py-2 rounded-lg flex items-center justify-center gap-1.5 cursor-pointer border-0">
+        <span class="material-symbols-outlined text-[16px]">lock</span> Student & Faculty Portal Login
+      </button>
+    </div>
+  </div>
+</header><main class="w-full pt-32 bg-surface min-h-[calc(100vh-28rem)]"><div class="flex flex-col w-full">
+<!-- 1. HERO SECTION -->
+<section class="relative -mt-32 w-full min-h-[92vh] flex flex-col justify-between overflow-hidden" id="home">
+<!-- Background Image with Scrim -->
+<div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1e06m42gfqj9HAasKyrrp1KBKrPl3RaLhm1qCLydXUKszImJhPk7tF1C8EbUgGWc1ou9jvexCkjJKxRQevVJhjTx7ieLVa77oZX8Kh-JzOz0bbKh8yhZeY2FYoJUMQbwmYpdbEwAL-VUdeKtkr0ltU-PN_1KbQA3wPLAwfGppuMVkeIi0gy_VQORyx898Nm2Kfn9hMJ8FHV_ufMn-V0K5rZXxIw2S76I7Hvk1irq4');">
+<div class="absolute inset-0 bg-gradient-to-r from-on-background/95 via-on-background/80 to-on-background/60"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background via-transparent to-transparent"></div>
+</div>
+<!-- Hero Content Container -->
+<div class="relative z-10 max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin pt-40 md:pt-48 pb-16 flex-1 flex flex-col justify-center">
+<div class="max-w-3xl flex flex-col items-start gap-space-md">
+<!-- Live Academic Alert Tag -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/15 backdrop-blur-md px-space-md py-1.5 rounded-full text-surface-bright">
+<span class="flex h-2.5 w-2.5 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-primary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-primary-fixed"></span>
+</span>
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-surface-bright font-semibold">
+            Admissions Open 2024–2025 • Affiliated with BISE Dera Ghazi Khan
+          </span>
+</div>
+<!-- H1 Header -->
+<h1 class="font-headline-xl text-headline-xl text-surface-bright font-bold tracking-tight">
+          Welcome to Aspire College <span class="text-tertiary-fixed">Taunsa Campus</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-surface-dim max-w-2xl font-light">
+          Building Bright Futures Through Quality Education — Inspiring Leadership, Integrity, and Academic Distinction in Taunsa Sharif.
+        </p>
+<!-- Dual CTA Row -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-sm w-full sm:w-auto">
+<a class="inline-flex items-center justify-center font-label-lg text-label-lg bg-primary text-on-primary px-space-lg py-3 rounded-lg shadow-lg hover:bg-primary-container transition-all transform hover:-translate-y-0.5" href="#admissions">
+<span class="material-symbols-outlined text-[20px] mr-space-xs">edit_calendar</span>
+            Apply for Admission
+          </a>
+<a class="inline-flex items-center justify-center font-label-lg text-label-lg bg-surface-container-lowest/10 backdrop-blur-md text-surface-bright px-space-lg py-3 rounded-lg hover:bg-surface-container-lowest/20 transition-all" href="#academic-programs">
+            Explore Programs
+            <span class="material-symbols-outlined text-[20px] ml-space-xs">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Floating Quick Stats Row -->
+<div class="relative z-10 w-full bg-surface-container-lowest/10 backdrop-blur-md">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin py-space-md">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-space-md text-surface-bright">
+<div class="flex items-center gap-space-sm">
+<div class="p-2.5 rounded-lg bg-primary/40 text-surface-bright">
+<span class="material-symbols-outlined text-[24px]">workspace_premium</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">100%</div>
+<div class="font-label-md text-label-md text-surface-dim">BISE Board Pass Rate</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="p-2.5 rounded-lg bg-primary/40 text-surface-bright">
+<span class="material-symbols-outlined text-[24px]">science</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">15+</div>
+<div class="font-label-md text-label-md text-surface-dim">Modern Labs &amp; Halls</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="p-2.5 rounded-lg bg-primary/40 text-surface-bright">
+<span class="material-symbols-outlined text-[24px]">military_tech</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">95%</div>
+<div class="font-label-md text-label-md text-surface-dim">Merit Distinction Holders</div>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="p-2.5 rounded-lg bg-primary/40 text-surface-bright">
+<span class="material-symbols-outlined text-[24px]">security</span>
+</div>
+<div>
+<div class="font-headline-sm text-headline-sm font-bold text-surface-bright">24/7</div>
+<div class="font-label-md text-label-md text-surface-dim">CCTV &amp; Safe Campus</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 2. ABOUT US SECTION -->
+<section class="w-full py-space-2xl bg-surface" id="about-us">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="max-w-2xl">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Collegiate Heritage • South Punjab</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Dedicated to Educational Rigor in Taunsa Sharif</h2>
+</div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant bg-surface-container-low px-space-md py-2 rounded-full">
+<span class="material-symbols-outlined text-[18px] text-tertiary">domain_verification</span>
+          Registered Center #4210 • BISE D.G. Khan
+        </div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Pillars Grid (Left) -->
+<div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">visibility</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">Our Vision</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Fostering intellect, moral character, and innovative thinkers capable of addressing regional and global challenges with resilience and ethical clarity.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">flag</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">Our Mission</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Providing accessible, world-class intermediate and tertiary education backed by high pedagogical standards directly to the aspiring youth of Southern Punjab.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">Educational Philosophy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Student-centric inquiry, practical hands-on scientific experimentation, strong conceptual clarity, and systematic personality grooming.
+            </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm hover:shadow-md transition-shadow">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[28px]">trending_up</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-space-xs">Success Commitment</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Structured board exam coaching, daily test series, individualized parent-teacher feedback loops, and extensive entry-test orientation.
+            </p>
+</div>
+</div>
+<!-- Principal Message Card (Right) -->
+<div class="lg:col-span-5 bg-surface-container-low p-space-xl rounded-xl relative overflow-hidden">
+<div class="flex items-center gap-space-md mb-space-md">
+<img class="w-20 h-20 rounded-full object-cover shadow-sm" data-alt="Official portrait of the Campus Principal at Aspire College Taunsa Campus, wearing a dark navy blazer and formal tie, smiling warmly against a collegiate mahogany bookshelf background in soft natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTBzNwoR4zH3frxtzL2EowKudC-HGZeddEKUkN0PJc57G2A9gJ2HelGKgcL7qVOf02rlBhJnJfDkOXZanS6xj4HXBEEDyak4bFw4vvUKxatuo0PhxfLLS6GCBhfEx-pCHDkDWivGSfQGbq2sJt6oBHwOJJQOYGgY_4HyQKpooO2aLB8jhRZXGso8_zM5_BsZ5yzs4hd3dppf8alVsLQOH_pJsZ_yJ9wH02H9Jgd0q1"/>
+<div>
+<div class="font-title-md text-title-md text-on-surface font-bold">Prof. M. Tariq Javed</div>
+<div class="font-label-md text-label-md text-primary font-semibold">Campus Principal</div>
+<div class="font-label-xs text-label-xs text-on-surface-variant">M.Phil Education, 22+ Yrs Experience</div>
+</div>
+</div>
+<div class="relative">
+<span class="material-symbols-outlined text-[48px] text-surface-dim absolute -top-4 -left-2 select-none opacity-40">format_quote</span>
+<p class="font-body-md text-body-md text-on-surface font-medium italic relative z-10 pl-space-md">
+              "At Aspire College Taunsa, our ambition is not merely to prepare young minds for examinations, but to ignite curiosity, instill unwavering ethical discipline, and open gateways to premier universities across Pakistan and beyond."
+            </p>
+</div>
+<div class="mt-space-lg pt-space-md flex items-center justify-between font-label-md text-label-md text-on-surface-variant">
+<span>Taunsa Sharif, Punjab</span>
+<span class="text-tertiary font-bold">• Verified Campus Leadership</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. ACADEMIC PROGRAMS SECTION -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="academic-programs">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Higher Secondary School Certificate</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Academic Programs Offered</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Two-year full-time intermediate degrees affiliated with the Board of Intermediate &amp; Secondary Education (BISE) D.G. Khan.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- 1. F.Sc Pre-Medical -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">HSSC Part I &amp; II</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">F.Sc Pre-Medical</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs mb-space-md">
+              Core Pathway for Medical Colleges (MBBS, BDS, Allied Health Sciences) with integrated MDCAT preparation.
+            </p>
+<div class="space-y-2 mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+                Subjects: Physics, Chemistry, Biology
+              </div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">school</span>
+                Eligibility: Matric Science (Min 60% Marks)
+              </div>
+</div>
+</div>
+<button class="w-full font-label-md text-label-md py-2.5 bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary rounded-lg transition-colors flex items-center justify-center gap-space-xs" onclick="openProgramModal('F.Sc Pre-Medical', 'Covers comprehensive BISE DG Khan curriculum in Biology, Physics, and Chemistry. Includes mandatory weekly conceptual testing and specialized MDCAT prep sessions led by senior mentors.')">
+<span>Program Details &amp; Syllabus</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- 2. F.Sc Pre-Engineering -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">HSSC Part I &amp; II</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">F.Sc Pre-Engineering</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs mb-space-md">
+              Gateway to Top Tier Engineering Institutions (UET, NUST, GIKI, PIEAS) along with ECAT analytical problem-solving.
+            </p>
+<div class="space-y-2 mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+                Subjects: Physics, Chemistry, Mathematics
+              </div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">school</span>
+                Eligibility: Matric Science (Min 60% Marks)
+              </div>
+</div>
+</div>
+<button class="w-full font-label-md text-label-md py-2.5 bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary rounded-lg transition-colors flex items-center justify-center gap-space-xs" onclick="openProgramModal('F.Sc Pre-Engineering', 'Thorough mathematical drills, physical mechanics laboratories, and structured ECAT modules targeting top Pakistani engineering universities.')">
+<span>Program Details &amp; Syllabus</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- 3. ICS Computer Science -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">HSSC Part I &amp; II</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">ICS (Computer Science)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs mb-space-md">
+              Designed for tomorrow’s Software Engineers, Data Scientists, and AI innovators with modern laboratory computing.
+            </p>
+<div class="space-y-2 mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+                Subjects: Comp. Science, Math, Physics / Stats
+              </div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">school</span>
+                Eligibility: Matric with Math (Min 50% Marks)
+              </div>
+</div>
+</div>
+<button class="w-full font-label-md text-label-md py-2.5 bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary rounded-lg transition-colors flex items-center justify-center gap-space-xs" onclick="openProgramModal('ICS Computer Science', 'Hands-on C/C++ programming, database fundamentals, logic design, and high-speed laboratory access with internet research privileges.')">
+<span>Program Details &amp; Syllabus</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- 4. I.Com Commerce -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">HSSC Part I &amp; II</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">I.Com (Commerce)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs mb-space-md">
+              Foundational springboard for Chartered Accountancy (CA), ACCA, Banking, BBA, and Financial Technologies.
+            </p>
+<div class="space-y-2 mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+                Subjects: Principles of Accounting, Economics, Banking
+              </div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">school</span>
+                Eligibility: Matric Arts / Science (Min 45% Marks)
+              </div>
+</div>
+</div>
+<button class="w-full font-label-md text-label-md py-2.5 bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary rounded-lg transition-colors flex items-center justify-center gap-space-xs" onclick="openProgramModal('I.Com Commerce', 'Covers bookkeeping, commercial geography, business mathematics, and economics with an emphasis on corporate readiness.')">
+<span>Program Details &amp; Syllabus</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- 5. FA Humanities & Arts -->
+<div class="bg-surface-container-lowest rounded-xl p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">HSSC Part I &amp; II</span>
+<span class="font-label-md text-label-md text-on-surface-variant">2 Years</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">FA (Humanities &amp; Arts)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs mb-space-md">
+              Premier springboard for aspiring Advocates, Civil Servants (CSS / PMS aspirants), Social Scientists, and Journalists.
+            </p>
+<div class="space-y-2 mb-space-md">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface font-semibold">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+                Subjects: Civics, Education, Islamic Studies, Psychology
+              </div>
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-tertiary">school</span>
+                Eligibility: Matric Any Stream (Min 45% Marks)
+              </div>
+</div>
+</div>
+<button class="w-full font-label-md text-label-md py-2.5 bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary rounded-lg transition-colors flex items-center justify-center gap-space-xs" onclick="openProgramModal('FA Humanities &amp; Arts', 'Fosters critical thinking, debate skills, constitutional awareness, and analytical writing required for Law entrance (LAT) and CSS preparations.')">
+<span>Program Details &amp; Syllabus</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</button>
+</div>
+<!-- 6. Special Scholarship Card -->
+<div class="bg-gradient-to-br from-inverse-surface to-on-background text-inverse-on-surface rounded-xl p-space-lg flex flex-col justify-between shadow-md">
+<div>
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-tertiary-fixed text-on-tertiary-fixed px-space-xs py-0.5 rounded font-bold">Merit Awards</span>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright font-bold mt-space-sm">Aspire Scholarships</h3>
+<p class="font-body-sm text-body-sm text-surface-dim mt-space-xs mb-space-md">
+              Up to 100% Free Education for high achievers (1000+ marks in Matric) and special concessions for siblings &amp; orphans.
+            </p>
+<ul class="space-y-2 text-surface-dim font-label-md text-label-md">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">stars</span>
+                Kinship &amp; Teacher Children Discounts
+              </li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">stars</span>
+                Free Books &amp; Uniforms for Top 5 Matric Rankers
+              </li>
+</ul>
+</div>
+<a class="w-full mt-space-md font-label-md text-label-md py-2.5 bg-primary text-on-primary text-center rounded-lg hover:bg-primary-container transition-colors font-semibold" href="#admissions">
+            Inquire About Scholarships
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. FACILITIES SECTION -->
+<section class="w-full py-space-2xl bg-surface" id="facilities">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Campus Infrastructure</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">State-of-the-Art Facilities</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Providing students in Taunsa with modern scholastic apparatus matching metropolitan benchmarks.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Qualified Faculty -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="Senior male and female Pakistani professors gathered around a collegiate seminar table reviewing academic curricula, wearing professional teaching attire in a bright, modern university staff room." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOf7g4XDgRQ0fc_Crm0wBddtzdwU00gHorASSA3ajljgSc7uj7RZzGGJzapADvwj-IWsxCxWohuEadhAGAg3EyKSNXeO32Uy87Ql1VAotxJCQqAIRyE4AoCLdDDnyfilKGqBZ1CJJEOe4GGk83ZS0HmQZa0bEnzxr2f4gvzKi9RW48PYwGi_7wcOsj_AozoyQGaqIOcJj-GrBQKTj5ih-zEMeoDEeM9N6p0At3AEn0"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">badge</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Qualified &amp; Experienced Faculty</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Subject specialists with M.Phil/Ph.D. credentials and proven reputations in BISE DG Khan board exam paper checking.
+            </p>
+</div>
+</div>
+<!-- Multimedia Classrooms -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="Air-conditioned collegiate lecture room with tiered wooden seating, overhead digital multimedia projector, white interactive board, and student desks in a pristine academic classroom environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyS4diFEMLcmwczs530yNULkUI2N9eoD-e8OP7b_GNphwQTVaMe-iPi7NnRSGQeH552rh5VSXqW-yljOIyJ5U6BBjugjq2v1bKh7FhOspC6TVeV-2LlFLc4NWDkpVH94xVfnV8a5NUiXEWClXdoAkIkFp3V5q9wbMVL6BFPRpn65ob3CCthqgIAgzy6hitqp8jHI_SQhIv4TXP6t8nh9DcgtA9gRO1BPfUHN8uBbnS"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">co_present</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Multimedia Classrooms</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Spacious, climate-controlled classrooms equipped with smart interactive projectors for 3D diagrammatic pedagogy.
+            </p>
+</div>
+</div>
+<!-- Advanced Science Labs -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="Spacious physics and chemistry laboratory with polished granite worktops, modern optical microscopes, glass test tubes, chemical reagents, and safety showers inside an educational institute." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWtlUwStlB_fpJPykqq5cHp_BN9cF5STXyE9Yxwm3IYRip_fmSAECjqIlsCLAqHOKirQ5sjRBJaNV6C2blz0GMDybhS5GUdidRKirCfTMWNPKrVuyAnRXpsgsCM8nsHGyCoTDIQNszSSimyXAAcYx_PWcfInZv57XBw6FmiTTCz82BaoUYoMEdixcX9AsWBm1CQ-YGvUhUv8FbjRLkmjqRfkL6ZJ8vewcbO2EvYUf-"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">biotech</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Advanced Science Laboratories</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Fully stocked Physics, Chemistry, and Biology apparatus strictly following the BISE intermediate practical manual.
+            </p>
+</div>
+</div>
+<!-- High-Tech Computer Labs -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="A clean modern computer laboratory filled with rows of sleek desktop monitors, ergonomic chairs, networking equipment, and soft LED ceiling lighting in an academic collegiate environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMmP7aFOn3jjwkNzztVjTZMLuZKlcB377kLRB6CQVdIoz6bGkxTPKTOiwlEZ_zMSGWYqzryjEQC1MA-211UcWNyoCmS08fIhTcyyD3FZlzNZpSOzfjFjhqNZN98etnI-uABgTxMe1Y3bEXWBf4RXQiipjAEFWTdCYM6DfOFka7dQmXMjKtY339IbWWYHRDxlJIPzv8d6me0sbUKNMvPBBZH2uCLI_DJgglsgthFS-b"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">terminal</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">High-Tech Computer Labs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Core i7 workstations with high-speed fiber internet, C++ dev suites, and dedicated power backup units.
+            </p>
+</div>
+</div>
+<!-- Central Library -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="A tranquil college library with tall wooden shelves of academic textbooks, silent study desks with reading lamps, and students reading peacefully in Taunsa Punjab." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP41tZwW33jOq_lUb3Jqgii-KhtKXa_Vwxw93-1IaAoQq-7g03NMY_AtEgbMoD6WB-vHwT3KfnVGJki7vHfqwYw53dPyn23eh-6k2j3D8adSAMq5qcAt49LZ2_8WV3nTAFy1-bbzSIO-PnwvH3zY2IbVWHVvlKNnrFf_fu67jil5ymubIDMSkXbviu2mzZoERygkpv7Qd46u5xQD--Svv-5VA-Iosk_k36bV6NtNAp"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">local_library</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Comprehensive Central Library</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Over 6,000 reference books, 10-year board past paper archives, international journals, and calm reading bays.
+            </p>
+</div>
+</div>
+<!-- Sports & Counseling -->
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<img class="w-full h-48 object-cover" data-alt="Lush green outdoor college sports grounds with cricket nets and badminton courts surrounded by brick campus architecture under clear blue sunny sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAa3IZ6iCZhhoM4iOQgiV2l5J5H53LAmXW2Raj1vuJMrYsF6XqGOsATFcxa7mGSn-V_v0q-CARXUmi91ydUZNDlAy8jB24Cg56Y2cOg2sOFk83kCyEY710bAjCBAyRCqmjlU109TdAgKoAhteIrVaEPFtV2VnA5KxYCXDh-q2tYv-zyOGj9ZtglkgcjGXdghlrAGBzx8WvpmwF0Blwk4g2-7U6kQnV3thdN1L9KGqry"/>
+<div class="p-space-lg">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center -mt-10 mb-space-sm shadow-sm relative z-10">
+<span class="material-symbols-outlined text-[24px]">sports_cricket</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold">Sports &amp; MDCAT Counseling</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+              Cricket ground, badminton court, annual sports gala plus round-the-clock career orientation for MDCAT/ECAT.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. WHY CHOOSE ASPIRE COLLEGE TAUNSA -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="why-aspire">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">The Aspire Advantage</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Why Choose Aspire College Taunsa?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Committed to transforming local potential into nationwide leadership through six institutional pillars.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-lg">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">01</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">menu_book</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Quality Education &amp; Pedagogy</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Moving beyond rote memorization into root conceptual mastery, analytical thinking, and exam-smart board methodologies.
+          </p>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">02</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">school</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Board-Vetted Faculty</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            All instructors undergo rigorous selection, continuous pedagogical training, and maintain proven records in BISE DG Khan board positions.
+          </p>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">03</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">groups</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Personality Development</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Annual debate contests, science fairs, community leadership initiatives, and character workshops groom confident citizens.
+          </p>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">04</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">explore</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Medical &amp; Engg Guidance</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Early introductory drills for MDCAT, ECAT, LAT, and university entry exams embedded directly into the intermediate curriculum.
+          </p>
+</div>
+<!-- Pillar 5 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">05</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">emoji_events</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Consistent Merit Positions</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Year-after-year board distinctions validate our focused chapter-wise test sessions and mock exams replicating BISE standards.
+          </p>
+</div>
+<!-- Pillar 6 -->
+<div class="bg-surface-container-lowest p-space-xl rounded-xl relative shadow-sm hover:shadow-md transition-all">
+<span class="text-surface-container-high font-headline-xl text-headline-xl font-bold absolute top-4 right-4 select-none">06</span>
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[26px]">verified_user</span>
+</div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Safe &amp; Disciplined Campus</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Strict perimeter security, round-the-clock CCTV cameras, zero-tolerance anti-ragging policy, and respectful co-curricular culture.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. ADMISSIONS SECTION & INQUIRY FORM -->
+<section class="w-full py-space-2xl bg-surface" id="admissions">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left: Admission Details & Schedule -->
+<div class="lg:col-span-5 flex flex-col gap-space-lg">
+<div>
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Fall 2024 • Open Enrollment</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Admission Guidelines &amp; Criteria</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+              Admissions are granted strictly on merit according to the policies framed by the Punjab Higher Education Department &amp; BISE D.G. Khan.
+            </p>
+</div>
+<!-- Schedule Timeline -->
+<div class="bg-surface-container-low p-space-lg rounded-xl space-y-space-md">
+<h3 class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[22px]">calendar_today</span>
+              Admission Schedule 2024–25
+            </h3>
+<div class="space-y-space-sm">
+<div class="flex items-start justify-between bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<div>
+<div class="font-label-md text-label-md text-on-surface font-bold">Submission of Admission Forms</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Round 1 Registrations</div>
+</div>
+<span class="font-label-xs text-label-xs bg-surface-container px-2 py-1 rounded text-primary font-bold">Ongoing</span>
+</div>
+<div class="flex items-start justify-between bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<div>
+<div class="font-label-md text-label-md text-on-surface font-bold">1st Merit List Display</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Notice Board &amp; Student Portal</div>
+</div>
+<span class="font-label-xs text-label-xs bg-surface-container px-2 py-1 rounded text-on-surface font-bold">Within 7 Days</span>
+</div>
+<div class="flex items-start justify-between bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<div>
+<div class="font-label-md text-label-md text-on-surface font-bold">Commencement of Regular Classes</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Orientation Session for 1st Year</div>
+</div>
+<span class="font-label-xs text-label-xs bg-surface-container px-2 py-1 rounded text-tertiary font-bold">Aug 2024</span>
+</div>
+</div>
+</div>
+<!-- Required Documents -->
+<div class="bg-surface-container-low p-space-lg rounded-xl">
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold mb-space-sm">Documents Required with Application:</h4>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">check_small</span>
+                Matriculation Result Card / Certificate (3 attested copies)
+              </li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">check_small</span>
+                Character Certificate from School Head (Original + 2 copies)
+              </li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">check_small</span>
+                Student Bay-Form / CNIC and Father/Guardian CNIC copy
+              </li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-primary">check_small</span>
+                6 Recent Passport-sized Photographs (Blue background)
+              </li>
+</ul>
+</div>
+</div>
+<!-- Right: Interactive Admission Inquiry Form -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-space-xl rounded-xl shadow-md">
+<div class="mb-space-lg">
+<span class="font-label-xs text-label-xs bg-tertiary-fixed text-on-tertiary-fixed px-space-xs py-0.5 rounded uppercase font-bold">Fast-Track Inquiry</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-1">Submit Online Admission Inquiry</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+              Fill in your details below and our Taunsa campus academic counselor will get in touch with you within 24 hours.
+            </p>
+</div>
+<form class="space-y-space-md" id="admissionForm" onsubmit="handleAdmissionSubmit(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="fullName">Student Full Name *</label>
+<input class="w-full h-12 px-space-md rounded-lg bg-surface text-on-surface placeholder:text-secondary/60 focus:bg-surface-bright focus:outline-none" id="fullName" placeholder="e.g. Muhammad Ahmad" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="guardianName">Father / Guardian Name *</label>
+<input class="w-full h-12 px-space-md rounded-lg bg-surface text-on-surface placeholder:text-secondary/60 focus:bg-surface-bright focus:outline-none" id="guardianName" placeholder="e.g. Ghulam Rasool" required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="contactNumber">Mobile / WhatsApp Number *</label>
+<input class="w-full h-12 px-space-md rounded-lg bg-surface text-on-surface placeholder:text-secondary/60 focus:bg-surface-bright focus:outline-none" id="contactNumber" placeholder="0300 1234567" required="" type="tel"/>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="matricMarks">Matric Marks / Percentage *</label>
+<input class="w-full h-12 px-space-md rounded-lg bg-surface text-on-surface placeholder:text-secondary/60 focus:bg-surface-bright focus:outline-none" id="matricMarks" placeholder="e.g. 980 / 1100 (89%)" required="" type="text"/>
+</div>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="programSelect">Preferred Academic Program *</label>
+<select class="w-full h-12 px-space-md rounded-lg bg-surface text-on-surface focus:bg-surface-bright focus:outline-none" id="programSelect" required="">
+<option disabled="" selected="" value="">Select an intermediate program...</option>
+<option value="F.Sc Pre-Medical">F.Sc Pre-Medical (Physics, Chemistry, Biology)</option>
+<option value="F.Sc Pre-Engineering">F.Sc Pre-Engineering (Physics, Chemistry, Math)</option>
+<option value="ICS (Computer Science)">ICS (Computer Science, Math, Physics/Stats)</option>
+<option value="I.Com (Commerce)">I.Com (Principles of Accounting, Economics, Banking)</option>
+<option value="FA (Humanities &amp; Arts)">FA (Humanities / Arts / General Science)</option>
+</select>
+</div>
+<div class="flex flex-col gap-1">
+<label class="font-label-md text-label-md text-on-surface font-semibold" for="userMessage">Message / Academic Inquiry (Optional)</label>
+<textarea class="w-full p-space-md rounded-lg bg-surface text-on-surface placeholder:text-secondary/60 focus:bg-surface-bright focus:outline-none" id="userMessage" placeholder="Tell us if you need hostel facility, transport, or scholarship information..." rows="3"></textarea>
+</div>
+<!-- Disclaimer Notice -->
+<div class="flex items-start gap-space-xs p-space-sm bg-surface-container-low rounded-lg text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-tertiary shrink-0 mt-0.5">info</span>
+<span>Notice: Inquiries are submitted directly to the campus admissions desk for verification and follow-up consultation.</span>
+</div>
+<div class="flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs">
+<button class="w-full sm:w-auto inline-flex items-center justify-center font-label-lg text-label-lg bg-primary text-on-primary px-space-xl py-3 rounded-lg hover:bg-primary-container transition-all" id="submitBtn" type="submit">
+<span class="material-symbols-outlined text-[18px] mr-space-xs">send</span>
+                Submit Admission Inquiry
+              </button>
+<span class="font-label-md text-label-md text-tertiary hidden font-bold" id="formFeedback"></span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. CAMPUS PHOTO & EVENT GALLERY -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="campus-gallery">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Vibrant College Life</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Campus Photo &amp; Event Gallery</h2>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-1.5 bg-surface-container-lowest p-1 rounded-xl shadow-sm">
+<button class="gallery-tab-btn active px-3 py-1.5 rounded-lg font-label-md text-label-md bg-inverse-surface text-inverse-on-surface transition-colors" onclick="filterGallery('all', this)">All</button>
+<button class="gallery-tab-btn px-3 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" onclick="filterGallery('building', this)">Campus Building</button>
+<button class="gallery-tab-btn px-3 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" onclick="filterGallery('labs', this)">Classrooms &amp; Labs</button>
+<button class="gallery-tab-btn px-3 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" onclick="filterGallery('students', this)">Students</button>
+<button class="gallery-tab-btn px-3 py-1.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" onclick="filterGallery('events', this)">Events &amp; Sports</button>
+</div>
+</div>
+<!-- Gallery Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md" id="galleryGrid">
+<!-- Item 1: Building -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="building">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Grand frontal facade of Aspire College Taunsa Campus building with red brick arches, modern tinted glass windows, and landscaped green entryway under morning sunlight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWZrgnk7D8SoJUGHe-Yyv8eOEg4liNZx6fzqC34A8MexX8uF4aTcG_yibTgydU45emjN8IF0CZ9AxKuCfaLoshU-6_XDfwaiWT_Hf1zM4ZZ-3UNnr3-6IGDtWmtT9pUWFltanKMrnG07inshb93e8z7AFoYL_KoD_FJhtmaSNcCTgkbh-hIkv19FAugyl5Lp80I6Swv7cP1NWQUjFDkj0j74KSbmwltrI1u09MYDtb"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Infrastructure</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Academic Block &amp; Main Entrance</div>
+</div>
+</div>
+<!-- Item 2: Labs -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="labs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pakistani students in clean white lab coats carefully performing titration experiments with flasks and test tubes inside a modern collegiate chemistry laboratory in Taunsa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCfxIwkTYXUv2OF81VQESB5Qjy0DV8gPRKQyi1rq5Vqa936TJzUAjflVOdo44u8eyxr3lWj-C0BbMgv4VctMa9pORpIquNvHVSiDpOws28IOs-36BP7nA9OMVYgrjcakTqyIkSZ6lzosNh125rGeRhAb-njvbpJDhx9pMgarsJf59D-3NLy4_5RQSWPQeBbV3pIVJm_v9QTCmQ7iMWhFQsKiUlQmxyr-fh1T60g5dqd"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Science &amp; Research</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Hands-On Chemistry Experimentation</div>
+</div>
+</div>
+<!-- Item 3: Students -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="students">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A diverse group of college students in smart uniforms carrying textbooks and discussing coursework with genuine smiles on the collegiate lawn pathway." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAT_RG-gXNKYFG81QbCyplv7pjwJuZjVWmoIpnhW7bachgSf0lzoR-Ydpe4QiDVmxLYeUy_tnh57xBukeIOUQZFNox2YbBoTzbIcn767cFro_W4rwM5KD77gcsO8WQ6TR3HMoSWkYlTBag09bBU83ugfN9eQpV_uKYvl0YNxGN20B1PdfF3h9q_rGx_DXCeSCFR74u9rcER5oSluIrxzhnHoCnimKtplp409cpPemDL"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Student Life</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Collegiate Scholars &amp; Study Circles</div>
+</div>
+</div>
+<!-- Item 4: Events -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="events">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A grand collegiate auditorium stage during the Annual Debate Competition, with a confident student speaker at the podium and faculty panel listening intently under stage lights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDhRHKr_Y87Ye5W5u8_zL8zRwt39O_MvXhbaYxLO9IKVbxwnE8l2ljXFFBxdWy9R0wJedDiSySa8G3xq9FOcaI_tTN4EIEw5ivvTn05pMaGlS6ukit1vEmOjV-5rASKvUkLKhi7tKD71gt3CD62Xgsnmtd94L-1PCMZamYcVQxm2UaNqbHHSe4PmQAg0G7PQdEr2--eJaKEwW8cROXSKwKscV2qp-9YrmYvNgchVNR-"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Competitions</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Annual All-Punjab Debate Championship</div>
+</div>
+</div>
+<!-- Item 5: Events -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="events">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Energetic action scene from the Aspire College Annual Sports Gala cricket tournament, showing a batsman making a stroke in front of cheering students on the boundary line." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSeRVGNc6vUxxJX6gqIEQEW-d_lO_Cnou-mSrn2u5O4G3I1Zn6izn61SntuOtacusUkAe6C4PoF4vVqwJMHYXGNdsPMHzrRnIWN6mvccs5U-a-TA0RJ5gaZ0aH4pxqF8dy2gIvg-zsfUxPy83CkRHv18EHoIfRl3CdaPItOLCunZCXwbCRly4TYcmY-dICs3Tm5ttahAAFwnxVT1y_JsbC3u6nPky9ttjATzQoruvM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Athletics</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Annual Sports Gala &amp; Trophy Ceremony</div>
+</div>
+</div>
+<!-- Item 6: Labs -->
+<div class="gallery-item group relative rounded-xl overflow-hidden shadow-sm aspect-[4/3]" data-category="labs">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Intermediate ICS students learning software programming and code logic on high-speed desktop PCs in the Aspire College Taunsa Computer Science Laboratory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOhzym9f0wGleXC5lRpa0c2EhLXJO7WVRWtwh9_lnoiuz0eSVfLajfZEKHJlmMzb9JptL1ZjJbnKsfA-pS3uvrmNOZdBcUctPqjOaVZSZEPTlPjZ8nESwQoZ9DBTZ5iAQLuZH2f23NzsH1gBdlU0i8DBKmbjAvFx1mlMcpvirIJw6cgjUV224uHhB8sR9yHXY_4iteZeRj9zXyQKmp5m0DhkgnR1bWSoT3BcAT3dgA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/90 via-on-background/30 to-transparent opacity-90 p-space-md flex flex-col justify-end">
+<span class="font-label-xs text-label-xs uppercase text-tertiary-fixed font-bold">Information Technology</span>
+<div class="font-title-md text-title-md text-surface-bright font-bold">Advanced Computer Science Lab</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. CONTACT US & LOCATION SECTION -->
+<section class="w-full py-space-2xl bg-surface" id="contact-us">
+<div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-primary font-bold">Get In Touch</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-bold mt-1">Contact Campus &amp; Visit Us</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Our admissions desk and administrative council welcome parents and prospective students throughout the week.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Left: Verified Campus Details -->
+<div class="lg:col-span-6 flex flex-col gap-space-lg">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">location_on</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Campus Address</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Aspire College Taunsa Campus, Kot Adu Road / College Chowk, Taunsa Sharif, District Dera Ghazi Khan, Punjab, Pakistan.
+              </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">call</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Helpline &amp; Mobile</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                PTCL: +92 64 2601234<br/>
+                Mobile/WhatsApp: +92 300 7351234<br/>
+                Direct Office: +92 300 1234567
+              </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">mail</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Official Inquiries</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                taunsa@aspirecolleges.edu.pk<br/>
+                admissions.taunsa@aspirecolleges.edu.pk
+              </p>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center mb-space-sm">
+<span class="material-symbols-outlined text-[24px]">schedule</span>
+</div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold">Visiting Hours</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs">
+                Monday to Saturday:<br/>
+<strong>08:00 AM – 03:00 PM</strong><br/>
+                (Friday Break: 12:30 PM - 02:00 PM)
+              </p>
+</div>
+</div>
+<!-- Quick General Contact Form -->
+<div class="bg-surface-container-low p-space-lg rounded-xl">
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-space-xs">Send Direct Query</h4>
+<form class="space-y-space-sm mt-space-sm" onsubmit="handleQuickContact(event)">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<input class="h-11 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface focus:outline-none" placeholder="Your Name" required="" type="text"/>
+<input class="h-11 px-space-sm rounded-lg bg-surface-container-lowest text-on-surface focus:outline-none" placeholder="Phone / WhatsApp" required="" type="tel"/>
+</div>
+<textarea class="w-full p-space-sm rounded-lg bg-surface-container-lowest text-on-surface focus:outline-none" placeholder="How can we assist you with admissions or transport?" required="" rows="2"></textarea>
+<div class="flex items-center justify-between">
+<button class="font-label-md text-label-md bg-inverse-surface text-inverse-on-surface px-space-md py-2.5 rounded-lg hover:bg-on-background transition-colors flex items-center gap-space-xs" type="submit">
+<span>Send Message</span>
+<span class="material-symbols-outlined text-[16px]">send</span>
+</button>
+<span class="font-label-md text-label-md text-tertiary hidden" id="quickContactMsg">Message transmitted successfully!</span>
+</div>
+</form>
+</div>
+</div>
+<!-- Right: Map Card Placeholder with Taunsa Sharif coordinates -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-md rounded-xl shadow-md">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">Taunsa Sharif Campus Map</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">College Chowk, Kot Adu Road Junction</p>
+</div>
+<a class="font-label-md text-label-md bg-surface-container text-on-surface px-space-md py-2 rounded-lg hover:bg-primary hover:text-on-primary transition-colors flex items-center gap-space-xs" href="https://maps.google.com/?q=Taunsa+Sharif+Punjab+Pakistan" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">directions</span>
+                Get Directions
+              </a>
+</div>
+<!-- Map View Container -->
+<div class="w-full h-80 rounded-lg bg-cover bg-center overflow-hidden relative shadow-inner" data-location="Aspire College Taunsa Campus, Kot Adu Road, Taunsa Sharif, Punjab, Pakistan" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA220L9cSfSZ3kWLNLHB-jZWENYOf5LYxTymM0kLsYCdf5536Vfv2SC-BIGVgFLMcSFx-HEFIGlj9HhJV7dM1uHbOzzA2n7C1nej3h3rBCW7ef75jCgA-NnYKnqxjDPAqSs3xkp1zkr4XwUMfA4ccYszyL4J6TaTNm8-WZmPwfRqfUP0nZ0XlBhjMA7ELZOu9Cwmjjp3XbcvUSu_-NEqnDcygQFncpANVma3UywVzId');">
+<!-- Map Card Overlay Pill -->
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-space-md rounded-lg shadow-lg flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">school</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface font-bold">Aspire College Taunsa</div>
+<div class="font-label-xs text-label-xs text-on-surface-variant">Kot Adu Rd, Taunsa, Punjab 32440</div>
+</div>
+</div>
+<span class="font-label-xs text-label-xs bg-tertiary-fixed text-on-tertiary-fixed px-2 py-0.5 rounded font-bold">BISE 4210</span>
+</div>
+</div>
+<div class="mt-space-md grid grid-cols-3 gap-space-xs text-center font-label-md text-label-md text-on-surface-variant">
+<div class="bg-surface-container-low py-2 rounded">
+<div class="font-bold text-on-surface">5 Min</div>
+<div class="text-[11px]">From General Bus Stand</div>
+</div>
+<div class="bg-surface-container-low py-2 rounded">
+<div class="font-bold text-on-surface">Main Chowk</div>
+<div class="text-[11px]">Direct Highway Access</div>
+</div>
+<div class="bg-surface-container-low py-2 rounded">
+<div class="font-bold text-on-surface">College Vans</div>
+<div class="text-[11px]">Pick &amp; Drop All Routes</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MODAL: Program Details & Syllabus Overview -->
+<div class="fixed inset-0 z-50 bg-on-background/70 backdrop-blur-sm hidden items-center justify-center p-space-md" id="programModal">
+<div class="bg-surface-container-lowest rounded-xl max-w-lg w-full p-space-xl shadow-2xl relative">
+<button class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface p-1 rounded-full" onclick="closeProgramModal()">
+<span class="material-symbols-outlined text-[24px]">close</span>
+</button>
+<span class="font-label-xs text-label-xs uppercase tracking-wide bg-primary/10 text-primary px-space-xs py-0.5 rounded font-bold">BISE D.G. Khan Syllabus</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-space-xs" id="modalProgramTitle">Program Title</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm" id="modalProgramDesc">
+        Program syllabus details here.
+      </p>
+<div class="mt-space-md p-space-md bg-surface-container rounded-lg">
+<h4 class="font-label-md text-label-md text-on-surface font-bold mb-space-xs">Evaluation Scheme:</h4>
+<ul class="font-body-sm text-body-sm text-on-surface-variant space-y-1">
+<li>• Daily Morning Quizzes &amp; Chapter Tests</li>
+<li>• Monthly Comprehensive Send-Up Examinations</li>
+<li>• Board Standard Pre-Board Simulation (Dec - Jan)</li>
+<li>• Hands-on Laboratory Practical Notebooks &amp; Vivas</li>
+</ul>
+</div>
+<div class="mt-space-lg flex items-center justify-end gap-space-sm">
+<button class="font-label-md text-label-md px-space-md py-2 rounded-lg bg-surface-container text-on-surface hover:bg-surface-dim transition-colors" onclick="closeProgramModal()">
+          Close
+        </button>
+<a class="font-label-md text-label-md px-space-lg py-2 rounded-lg bg-primary text-on-primary hover:bg-primary-container transition-colors" href="#admissions" onclick="closeProgramModal()">
+          Apply Now
+        </a>
+</div>
+</div>
+</div>
+<!-- Interactive Scripts -->
+<script>
+    // Program Modal handler
+    function openProgramModal(title, desc) {
+      document.getElementById('modalProgramTitle').innerText = title;
+      document.getElementById('modalProgramDesc').innerText = desc;
+      const modal = document.getElementById('programModal');
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeProgramModal() {
+      const modal = document.getElementById('programModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    // Portal Login Modal Handlers
+    function openLoginModal() {
+      const modal = document.getElementById('loginModal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+      }
+    }
+
+    function closeLoginModal() {
+      const modal = document.getElementById('loginModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function switchLoginTab(type) {
+      const studentBtn = document.getElementById('studentTabBtn');
+      const facultyBtn = document.getElementById('facultyTabBtn');
+      const label = document.getElementById('loginIdLabel');
+      const input = document.getElementById('loginIdInput');
+
+      if (type === 'student') {
+        studentBtn.className = 'flex-1 py-2 text-xs font-bold rounded-lg bg-surface text-primary shadow-sm transition-all cursor-pointer border-0';
+        facultyBtn.className = 'flex-1 py-2 text-xs font-bold rounded-lg text-on-surface-variant hover:text-on-surface transition-all cursor-pointer border-0';
+        label.innerText = 'Roll Number / Registration No';
+        input.placeholder = 'e.g. 2024-FSC-102';
+      } else {
+        facultyBtn.className = 'flex-1 py-2 text-xs font-bold rounded-lg bg-surface text-primary shadow-sm transition-all cursor-pointer border-0';
+        studentBtn.className = 'flex-1 py-2 text-xs font-bold rounded-lg text-on-surface-variant hover:text-on-surface transition-all cursor-pointer border-0';
+        label.innerText = 'Staff / Faculty ID';
+        input.placeholder = 'e.g. FAC-TN-4210';
+      }
+    }
+
+    function handleLoginSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('loginSubmitBtn');
+      const feedback = document.getElementById('loginFeedback');
+      btn.disabled = true;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin mr-1">progress_activity</span> Authenticating...';
+
+      setTimeout(() => {
+        btn.disabled = false;
+        btn.innerHTML = '<span class="material-symbols-outlined text-[18px] mr-1">check</span> Authenticated!';
+        feedback.className = 'p-3 rounded-lg text-xs font-medium bg-primary/10 text-primary block';
+        feedback.innerText = 'Demo Mode: Credentials validated successfully. Redirecting to student dashboard...';
+        setTimeout(() => {
+          closeLoginModal();
+          feedback.className = 'hidden';
+          btn.innerHTML = '<span class="material-symbols-outlined text-[18px]">login</span> <span>Sign In to Portal</span>';
+        }, 1500);
+      }, 900);
+    }
+
+    // Mobile Menu Toggle
+    function toggleMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const icon = document.getElementById('mobileMenuIcon');
+      if (menu.classList.contains('hidden')) {
+        menu.classList.remove('hidden');
+        icon.innerText = 'close';
+      } else {
+        menu.classList.add('hidden');
+        icon.innerText = 'menu';
+      }
+    }
+
+    function closeMobileMenu() {
+      const menu = document.getElementById('mobileMenu');
+      const icon = document.getElementById('mobileMenuIcon');
+      if (menu) {
+        menu.classList.add('hidden');
+        if (icon) icon.innerText = 'menu';
+      }
+    }
+
+    // Admission form submission
+    function handleAdmissionSubmit(e) {
+      e.preventDefault();
+      const btn = document.getElementById('submitBtn');
+      const feedback = document.getElementById('formFeedback');
+      
+      btn.disabled = true;
+      btn.innerHTML = '<span class="material-symbols-outlined text-[18px] animate-spin mr-space-xs">progress_activity</span> Submitting...';
+      
+      setTimeout(() => {
+        btn.innerHTML = '<span class="material-symbols-outlined text-[18px] mr-space-xs">check</span> Inquiry Registered!';
+        btn.classList.remove('bg-primary');
+        btn.classList.add('bg-tertiary-container');
+        feedback.innerText = 'Application reference #ASP-TN-' + Math.floor(1000 + Math.random() * 9000) + ' created. Admissions team will contact shortly.';
+        feedback.classList.remove('hidden');
+      }, 1000);
+    }
+
+    // Quick contact submission
+    function handleQuickContact(e) {
+      e.preventDefault();
+      const msg = document.getElementById('quickContactMsg');
+      msg.classList.remove('hidden');
+      e.target.reset();
+      setTimeout(() => {
+        msg.classList.add('hidden');
+      }, 4000);
+    }
+
+    // Gallery filter
+    function filterGallery(category, buttonEl) {
+      document.querySelectorAll('.gallery-tab-btn').forEach(btn => {
+        btn.classList.remove('bg-inverse-surface', 'text-inverse-on-surface');
+        btn.classList.add('text-on-surface-variant');
+      });
+      buttonEl.classList.remove('text-on-surface-variant');
+      buttonEl.classList.add('bg-inverse-surface', 'text-inverse-on-surface');
+
+      const items = document.querySelectorAll('.gallery-item');
+      items.forEach(item => {
+        if (category === 'all' || item.getAttribute('data-category') === category) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Smooth navigation support & active tab update on click
+    function setActiveTab(sectionId) {
+      // Desktop tabs
+      document.querySelectorAll('.nav-tab').forEach(tab => {
+        if (tab.getAttribute('data-section') === sectionId) {
+          tab.classList.remove('text-on-surface-variant', 'hover:bg-surface-container');
+          tab.classList.add('text-primary', 'bg-primary/10');
+        } else {
+          tab.classList.remove('text-primary', 'bg-primary/10');
+          tab.classList.add('text-on-surface-variant', 'hover:bg-surface-container');
+        }
+      });
+
+      // Mobile tabs
+      document.querySelectorAll('.mobile-nav-tab').forEach(tab => {
+        if (tab.getAttribute('data-section') === sectionId) {
+          tab.classList.remove('text-on-surface-variant', 'hover:bg-surface-container');
+          tab.classList.add('text-primary', 'bg-primary/10');
+        } else {
+          tab.classList.remove('text-primary', 'bg-primary/10');
+          tab.classList.add('text-on-surface-variant', 'hover:bg-surface-container');
+        }
+      });
+    }
+
+    // Click handler for all tab links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+        if (target) {
+          e.preventDefault();
+          setActiveTab(targetId);
+          const navOffset = 90;
+          const elementPosition = target.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - navOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+
+    // ScrollSpy to automatically highlight active tab as user scrolls
+    const sections = ['home', 'about-us', 'academic-programs', 'facilities', 'why-aspire', 'admissions', 'campus-gallery', 'contact-us'];
+    let scrollTimeout;
+    window.addEventListener('scroll', () => {
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        const scrollPosition = window.scrollY + 140;
+        for (let i = sections.length - 1; i >= 0; i--) {
+          const sectionEl = document.getElementById(sections[i]);
+          if (sectionEl && sectionEl.offsetTop <= scrollPosition) {
+            setActiveTab(sections[i]);
+            break;
+          }
+        }
+      }, 50);
+    });
+  </script>
+</div></main>
+
+<!-- PORTAL LOGIN MODAL -->
+<div id="loginModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-center justify-center p-4">
+  <div class="bg-surface rounded-2xl max-w-md w-full p-6 shadow-2xl border border-surface-container relative animate-fadeIn">
+    <!-- Close button -->
+    <button onclick="closeLoginModal()" class="absolute top-4 right-4 text-on-surface-variant hover:text-on-surface w-8 h-8 rounded-full flex items-center justify-center hover:bg-surface-container transition-colors cursor-pointer border-0">
+      <span class="material-symbols-outlined text-[20px]">close</span>
+    </button>
+
+    <div class="flex items-center gap-3 mb-5">
+      <div class="w-10 h-10 rounded-xl bg-primary/10 text-primary flex items-center justify-center">
+        <span class="material-symbols-outlined text-[24px]">school</span>
+      </div>
+      <div>
+        <h3 class="font-headline-sm text-lg font-bold text-on-surface">Aspire Taunsa Portal</h3>
+        <p class="text-xs text-on-surface-variant">BISE Center Code: #4210</p>
+      </div>
+    </div>
+
+    <!-- Login Tabs -->
+    <div class="flex items-center gap-2 bg-surface-container-low p-1 rounded-xl mb-5">
+      <button id="studentTabBtn" onclick="switchLoginTab('student')" class="flex-1 py-2 text-xs font-bold rounded-lg bg-surface text-primary shadow-sm transition-all cursor-pointer border-0">
+        Student Portal
+      </button>
+      <button id="facultyTabBtn" onclick="switchLoginTab('faculty')" class="flex-1 py-2 text-xs font-bold rounded-lg text-on-surface-variant hover:text-on-surface transition-all cursor-pointer border-0">
+        Faculty / Staff
+      </button>
+    </div>
+
+    <form onsubmit="handleLoginSubmit(event)" class="space-y-4">
+      <div>
+        <label id="loginIdLabel" class="block text-xs font-semibold text-on-surface mb-1.5">Roll Number / Registration No</label>
+        <div class="relative">
+          <span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute left-3 top-2.5">badge</span>
+          <input id="loginIdInput" type="text" required placeholder="e.g. 2024-FSC-102" class="w-full bg-surface-container-lowest text-on-surface text-sm pl-10 pr-3 py-2 rounded-lg border border-surface-container focus:border-primary outline-none" />
+        </div>
+      </div>
+
+      <div>
+        <label class="block text-xs font-semibold text-on-surface mb-1.5">Portal Password</label>
+        <div class="relative">
+          <span class="material-symbols-outlined text-[18px] text-on-surface-variant absolute left-3 top-2.5">key</span>
+          <input type="password" required placeholder="••••••••" class="w-full bg-surface-container-lowest text-on-surface text-sm pl-10 pr-3 py-2 rounded-lg border border-surface-container focus:border-primary outline-none" />
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between text-xs text-on-surface-variant">
+        <label class="flex items-center gap-1.5 cursor-pointer">
+          <input type="checkbox" class="rounded accent-primary" />
+          <span>Remember me</span>
+        </label>
+        <a href="#contact-us" onclick="closeLoginModal()" class="text-primary hover:underline font-medium">Forgot credentials?</a>
+      </div>
+
+      <div id="loginFeedback" class="hidden p-3 rounded-lg text-xs font-medium"></div>
+
+      <button id="loginSubmitBtn" type="submit" class="w-full py-2.5 rounded-lg bg-primary text-on-primary font-semibold text-sm hover:bg-primary-container transition-colors shadow-md flex items-center justify-center gap-1.5 cursor-pointer border-0">
+        <span class="material-symbols-outlined text-[18px]">login</span>
+        <span>Sign In to Portal</span>
+      </button>
+    </form>
+  </div>
+</div>
+<footer class="w-full bg-surface-container-low text-on-surface mt-space-2xl"><div class="max-w-[1360px] mx-auto px-gutter-mobile md:px-margin-tablet lg:px-margin pt-space-2xl pb-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl"><div class="lg:col-span-4 flex flex-col gap-space-md"><div class="flex items-center gap-space-sm"><img alt="Aspire College Crest Logo" class="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuARW3Gpbno1FvW5TdSd_kRlVX0iizfZLzzfEWaZkmGpP-g0x1TdmpKIVJYmlS5zU7yJJoRhCHuOIgjWcflzD-d9JKiskhJoVBgdcSjQpq0fTO8haUZSVeoCThYwSpX-E7zJh_b_dDzabafZZL_ICRdKCRqduOiz9JcQKruELnXcuxDugp2mBsvCQMldXO-PBMNTyhfS8xNJKKSGU1Ww9rvvo_lseBa2Rp84QkDq9Tkz"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm leading-tight text-on-surface">Aspire College</span><span class="font-label-md text-label-md text-primary font-bold">Taunsa Campus</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-sm">Affiliated with Board of Intermediate &amp; Secondary Education (BISE) Dera Ghazi Khan. Empowering rural and suburban talent across South Punjab with collegiate excellence and values.</p><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[20px] text-tertiary">verified</span><span class="font-label-md text-label-md text-on-surface-variant">Official BISE DG Khan Center Code: 4210</span></div></div><div class="lg:col-span-2 flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface font-bold">Quick Links</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#about-us">About Campus</a></li>
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#admissions">Admission Criteria</a></li>
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#facilities">Science &amp; IT Labs</a></li>
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#why-aspire">Scholarship Policy</a></li>
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors" href="#campus-gallery">Events &amp; Life</a></li>
+    <li class="py-0.5"><a class="text-on-surface-variant hover:text-primary transition-colors cursor-pointer" onclick="openLoginModal()" href="javascript:void(0)">Student Portal</a></li>
+  </ul></div><div class="lg:col-span-3 flex flex-col gap-space-sm"><span class="font-title-md text-title-md text-on-surface font-bold">Intermediate Programs</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="flex items-center gap-space-xs py-0.5"><span class="material-symbols-outlined text-[16px] text-primary">arrow_right_alt</span><span>F.Sc Pre-Medical</span></li><li class="flex items-center gap-space-xs py-0.5"><span class="material-symbols-outlined text-[16px] text-primary">arrow_right_alt</span><span>F.Sc Pre-Engineering</span></li><li class="flex items-center gap-space-xs py-0.5"><span class="material-symbols-outlined text-[16px] text-primary">arrow_right_alt</span><span>ICS (Computer Science)</span></li><li class="flex items-center gap-space-xs py-0.5"><span class="material-symbols-outlined text-[16px] text-primary">arrow_right_alt</span><span>I.Com (Commerce)</span></li><li class="flex items-center gap-space-xs py-0.5"><span class="material-symbols-outlined text-[16px] text-primary">arrow_right_alt</span><span>FA / General Science</span></li></ul></div><div class="lg:col-span-3 flex flex-col gap-space-md"><span class="font-title-md text-title-md text-on-surface font-bold">Campus Contacts</span><div class="flex flex-col gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-start gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0 mt-0.5">location_on</span><span>Kot Adu Road, Near College Chowk, Taunsa Sharif, District Taunsa, Punjab</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">call</span><span>+92 64 2601234 / +92 300 1234567</span></div><div class="flex items-center gap-space-xs"><span class="material-symbols-outlined text-[18px] text-primary shrink-0">mail</span><span>taunsa@aspirecolleges.edu.pk</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface font-semibold">Admissions Newsletter</span><div class="flex items-center gap-space-xs"><input class="bg-surface-container-lowest text-on-surface font-body-sm text-body-sm px-space-sm py-2 rounded-lg outline-none w-full shadow-inner" placeholder="Enter your email" type="email"/><button class="bg-primary text-on-primary font-label-md text-label-md px-space-md py-2 rounded-lg hover:bg-primary-container transition-colors shrink-0">Join</button></div></div></div></div><div class="mt-space-2xl pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md font-body-sm text-body-sm text-on-surface-variant"><p>© 2024 Aspire College Taunsa Campus. All rights reserved.</p><div class="flex items-center gap-space-md"><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">public</span></a><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">share</span></a><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">feed</span></a></div></div></div></footer></body></html>

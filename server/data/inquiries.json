@@ -1,0 +1,15 @@
+[
+  {
+    "id": "adm_1794136144926_4953",
+    "referenceCode": "ASP-TN-4953",
+    "studentName": "Muhammad Hamza",
+    "fatherName": "Tariq Mehmood",
+    "phone": "0301-2345678",
+    "marks": "1020",
+    "totalMarks": "1100",
+    "program": "F.Sc Pre-Medical",
+    "message": "Test inquiry via localhost",
+    "status": "pending",
+    "createdAt": "2026-11-08T11:09:04.926Z"
+  }
+]
